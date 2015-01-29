@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>com.bluetoothle.citozin.dll</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>config.xml</File>
+    <File>www\cordova.js</File>
+    <File>www\cordova_plugins.js</File>
+    <File>www\css\index.css</File>
+    <File>www\img\logo.png</File>
+    <File>www\index.html</File>
+    <File>www\js\index.js</File>
+    <File>www\js\index.js_HRM</File>
+    <File>www\js\libs\jquery-mobile\jquery.mobile.min.css</File>
+    <File>www\js\libs\jquery-mobile\jquery.mobile.min.js</File>
+    <File>www\js\libs\jquery\jquery.min.js</File>
+    <File>www\plugins\com.randdusing.bluetoothle\www\bluetoothle.js</File>
+    <File>www\plugins\org.apache.cordova.console\www\console-via-logger.js</File>
+    <File>www\plugins\org.apache.cordova.console\www\logger.js</File>
+    <File>www\plugins\org.apache.cordova.device\www\device.js</File>
+    <File>www\plugins\org.apache.cordova.dialogs\www\notification.js</File>
+    <File>www\plugins\org.apache.cordova.vibration\www\vibration.js</File>
+    <File>Images\appbar.back.rest.png</File>
+    <File>Images\appbar.close.rest.png</File>
+    <File>Images\appbar.feature.video.rest.png</File>
+    <File>Images\appbar.next.rest.png</File>
+    <File>Images\appbar.save.rest.png</File>
+    <File>Images\appbar.stop.rest.png</File>
+    <File>VERSION</File>
+    <File>SplashScreenImage.jpg</File>
+    <File>Plugins\org.apache.cordova.dialogs\notification-beep.wav</File>
+    <File>AppManifest.xaml</File>
+    <File>ApplicationIcon.png</File>
+    <File>Background.png</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

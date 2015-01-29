@@ -1,0 +1,1 @@
+C:\citozin\platforms\wp8\citozin.csproj;neutral

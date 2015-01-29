@@ -1,0 +1,74 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"wp-package\" value=\"DebugConsole\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"wp-package\" value=\"Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"wp-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"wp-package\" value=\"Vibration\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BluetoothLePlugin\"><param name=\"wp-package\" value=\"BluetoothLePlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_IDENTITY_DEVICE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "Package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<m2:DeviceCapability Name=\"bluetooth.genericAttributeProfile\"><m2:Device Id=\"any\"><m2:Function Type=\"serviceId:1803\" /></m2:Device></m2:DeviceCapability>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "{a73bf1c0-a7aa-11e4-9e7f-cd7814894d5e}"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "{a73bf1c0-a7aa-11e4-9e7f-cd7814894d5e}"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "{a73bf1c0-a7aa-11e4-9e7f-cd7814894d5e}"
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "{a73bf1c0-a7aa-11e4-9e7f-cd7814894d5e}"
+        },
+        "com.randdusing.bluetoothle": {
+            "PACKAGE_NAME": "{a73bf1c0-a7aa-11e4-9e7f-cd7814894d5e}"
+        }
+    },
+    "dependent_plugins": {}
+}
